@@ -1,0 +1,72 @@
+/* Variables */
+:root {
+  --main-font-size: 16px;
+  --main-font-family: "Roboto", sans-serif;
+  --main-font-weight: 100;
+}
+
+/* Estilos */
+body {
+  font-size: var(--main-font-size);
+  font-family: var(--main-font-family);
+  font-weight: var(--main-font-weight);
+  font-style: normal;
+  color: #e6d8d8;
+  background-color: rgba(5, 105, 151, 0.973);
+}
+
+a {
+  color: rgba(240, 243, 43, 0.979);
+}
+
+a:hover {
+  color: rgb(192, 239, 245); 
+}
+
+img, iframe {
+  max-width: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
